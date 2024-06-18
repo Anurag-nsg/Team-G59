@@ -1,0 +1,39 @@
+/* src/Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-image: url('https://example.com/background.jpg'); Change to your desired background image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .home-header {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
